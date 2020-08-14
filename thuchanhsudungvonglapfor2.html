@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thực hành sử dụng vòng lặp for 2</title>
+</head>
+<body>
+    <script>
+        let num = parseInt(prompt("Enter your number: "));
+        let tong = 0;
+        if (num > 0){
+
+            for (let n = 1;n <= num;n++){
+                tong += n;
+            }
+        }else {
+            alert("Hãy nhập số lớn hơn 0");
+        }
+        alert("tổng là " + tong);
+    </script>
+</body>
+</html>
